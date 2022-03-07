@@ -22,3 +22,7 @@ cp 2.txt 12/2cp.txt
 18) вывести несколько последних строк из текстового файла === tail -n6 2.txt
 19) просмотреть содержимое длинного файла (команда less) изучите как она работает. === less HWterminalDima.txt
 20) вывести дату и время === date
+
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request === curl http://162.55.220.72:5005/terminal-hw-request 
+                                                  curl http://162.55.220.72:5005/get_method?name="Dima&age=29"
